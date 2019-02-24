@@ -31,6 +31,16 @@ public class IdTool {
     }
 
     /**
+     *
+     * @param prefix
+     * @param length
+     * @return
+     */
+    public static String genRandomStr(String prefix, int length) {
+        return prefix + genRandomStr(length);
+    }
+
+    /**
      * 生成当前时间的指定格式
      *
      * @param pattern 日期格式化类型

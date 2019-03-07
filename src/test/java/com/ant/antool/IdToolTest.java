@@ -2,8 +2,6 @@ package com.ant.antool;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class IdToolTest {
 
     @Test
@@ -17,5 +15,15 @@ public class IdToolTest {
 
     @Test
     public void genRandomStr() {
+    }
+
+    @Test
+    public void genS(){
+        System.out.println(IdTool.genSerialNumber());
+        System.out.println(IdTool.genSerialNumber());
+        System.out.println(IdTool.genSerialNumber());
+        System.out.println(IdTool.genSerialNumber());
+        System.out.println(IdTool.genSerialNumber());
+        System.out.println(IdTool.genSerialNumber());
     }
 }

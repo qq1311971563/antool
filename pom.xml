@@ -6,7 +6,7 @@
 
     <groupId>com.ant</groupId>
     <artifactId>antool</artifactId>
-    <version>1.2.0</version>
+    <version>1.3.0-RELEASE</version>
     <!--
         主版本号（1）：当功能模块有较大的变动,有部分内容不兼容之前的
             比如增加多个模块或者整体架构发生变化。
@@ -43,6 +43,17 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.56</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.54</version>
         </dependency>
     </dependencies>
     <build>
